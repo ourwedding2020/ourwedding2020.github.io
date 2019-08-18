@@ -107,6 +107,8 @@
 					<div class="heading">
 						<h2 class="title">Don't miss it!</h2>
 						<span class="heading-bottom"><i class="color-white icon icon-star"></i></span>
+
+						<div class="simply-countdown simply-countdown-one"></div>
 					</div>
 				</div>
 
@@ -334,6 +336,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
 	<script src="common-js/scripts.js"></script>
+
+	<script>
+    var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+
+
+		// default example
+		    simplyCountdown('.simply-countdown-one', {
+		        year: 2020,
+		        month: 1,
+		        day: 4
+		    });
+</script>
 
 </body>
 </html>
